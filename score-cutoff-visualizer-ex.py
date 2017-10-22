@@ -1,9 +1,9 @@
 #############################################################
-#    The idea is simple: I have a class that stores			#
-#	 source data and use functions to change the values.	#
+#    The idea is simple: I have a class that stores	    #
+#	 source data and use functions to change the values.#
 #    Since they are after all manipulating the values in    #
 #    the data that is stored in the same class, we can      #
-#    then visualize their interactions later.				#
+#    then visualize their interactions later.		    #
 #############################################################
 
 import pandas as pd
