@@ -65,7 +65,7 @@ def AR_calculator(data):
 
 
 def main(cutoff1, cutoff2):
-	data = pd.read_csv('abc.csv', encoding='ISO-8859-1')
+	data = pd.read_csv('example.csv', encoding='ISO-8859-1')
 	changer = dataChanger(data)
 	changer.zhima_credit_status_changer(cutoff1)
 	changer.low_9_credit_status_changer(cutoff2)
